@@ -86,13 +86,13 @@ import com.atguigu.aop.MathCalculator;
  * 			7）、把BeanPostProcessor注册到BeanFactory中；
  * 				beanFactory.addBeanPostProcessor(postProcessor);
  * =======以上是创建和注册AnnotationAwareAspectJAutoProxyCreator的过程========
- * 
  * 			AnnotationAwareAspectJAutoProxyCreator => InstantiationAwareBeanPostProcessor
  * 		4）、finishBeanFactoryInitialization(beanFactory);完成BeanFactory初始化工作；创建剩下的单实例bean
  * 			1）、遍历获取容器中所有的Bean，依次创建对象getBean(beanName);
  * 				getBean->doGetBean()->getSingleton()->
  * 			2）、创建bean
- * 				【AnnotationAwareAspectJAutoProxyCreator在所有bean创建之前会有一个拦截，InstantiationAwareBeanPostProcessor，会调用postProcessBeforeInstantiation()】
+ * 				【AnnotationAwareAspectJAutoProxyCreator在所有bean创建之前会有一个拦截，InstantiationAwareBeanPostProcessor，
+ * 				会调用postProcessBeforeInstantiation()】
  * 				1）、先从缓存中获取当前bean，如果能获取到，说明bean是之前被创建过的，直接使用，否则再创建；
  * 					只要创建好的Bean都会被缓存起来
  * 				2）、createBean（）;创建bean；
@@ -100,7 +100,7 @@ import com.atguigu.aop.MathCalculator;
  * 					【BeanPostProcessor是在Bean对象创建完成初始化前后调用的】
  * 					【InstantiationAwareBeanPostProcessor是在创建Bean实例之前先尝试用后置处理器返回对象的】
  * 					1）、resolveBeforeInstantiation(beanName, mbdToUse);解析BeforeInstantiation
- * 						希望后置处理器在此能返回一个代理对象；如果能返回代理对象就使用，如果不能就继续
+ * 		*********************希望后置处理器在此能返回一个代理对象；如果能返回代理对象就使用，如果不能就继续
  * 						1）、后置处理器先尝试返回对象；
  * 							bean = applyBeanPostProcessorsBeforeInstantiation（）：
  * 								拿到所有后置处理器，如果是InstantiationAwareBeanPostProcessor;
@@ -156,11 +156,9 @@ import com.atguigu.aop.MathCalculator;
  * 				如果是MethodInterceptor，直接加入到集合中
  * 				如果不是，使用AdvisorAdapter将增强器转为MethodInterceptor；
  * 				转换完成返回MethodInterceptor数组；
- * 
  * 		3）、如果没有拦截器链，直接执行目标方法;
  * 			拦截器链（每一个通知方法又被包装为方法拦截器，利用MethodInterceptor机制）
- * 		4）、如果有拦截器链，把需要执行的目标对象，目标方法，
- * 			拦截器链等信息传入创建一个 CglibMethodInvocation 对象，
+ * 		4）、如果有拦截器链，把需要执行的目标对象，目标方法，拦截器链等信息传入创建一个 CglibMethodInvocation 对象，
  * 			并调用 Object retVal =  mi.proceed();
  * 		5）、拦截器链的触发过程;
  * 			1)、如果没有拦截器执行执行目标方法，或者拦截器的索引和拦截器数组-1大小一样（指定到了最后一个拦截器）执行目标方法；
@@ -177,7 +175,8 @@ import com.atguigu.aop.MathCalculator;
  * 				1）、创建业务逻辑组件和切面组件
  * 				2）、AnnotationAwareAspectJAutoProxyCreator拦截组件的创建过程
  * 				3）、组件创建完之后，判断组件是否需要增强
- * 					是：切面的通知方法，包装成增强器（Advisor）;给业务逻辑组件创建一个代理对象（cglib）；
+ * 					是：切面的通知方法，包装成增强器（Advisor）;
+ * 					给业务逻辑组件创建一个代理对象（cglib）；
  * 		5）、执行目标方法：
  * 			1）、代理对象执行目标方法
  * 			2）、CglibAopProxy.intercept()；

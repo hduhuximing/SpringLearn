@@ -38,7 +38,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
  * 原理：
  * 1）、@EnableTransactionManagement
  * 			利用TransactionManagementConfigurationSelector给容器中会导入组件
- * 			导入两个组件
+ * 			导入两个组 件
  * 			AutoProxyRegistrar
  * 			ProxyTransactionManagementConfiguration
  * 2）、AutoProxyRegistrar：
