@@ -62,7 +62,7 @@ Spring容器的refresh()【创建刷新】;
 		4）、最后注册没有实现任何优先级接口的
 		5）、最终注册MergedBeanDefinitionPostProcessor；
 		6）、注册一个ApplicationListenerDetector；来在Bean创建完成后检查是否是ApplicationListener，如果是
-			applicationContext.addApplicationListener((ApplicationListener<?>) bean);
+			applicationContext.addApplicationListener((ApplicationListener<?>) bean);检测是不是监听器
 7、initMessageSource();初始化MessageSource组件（做国际化功能；消息绑定，消息解析）；
 		1）、获取BeanFactory
 		2）、看容器中是否有id为messageSource的，类型是MessageSource的组件

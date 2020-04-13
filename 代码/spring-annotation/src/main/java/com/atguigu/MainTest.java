@@ -14,8 +14,8 @@ public class MainTest {
 //		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
 //		Person bean = (Person) applicationContext.getBean("person");
 //		System.out.println(bean);
-		
-		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig.class);
+
+		AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig.class);
 		Person bean = applicationContext.getBean(Person.class);
 		System.out.println(bean);
 		

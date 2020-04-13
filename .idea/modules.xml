@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/代码/spring-annotation/spring-annotation.iml" filepath="$PROJECT_DIR$/代码/spring-annotation/spring-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring_source_parsing_data.iml" filepath="$PROJECT_DIR$/.idea/spring_source_parsing_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/代码/springmvc-annotation/springmvc-annotation.iml" filepath="$PROJECT_DIR$/代码/springmvc-annotation/springmvc-annotation.iml" />
     </modules>
   </component>
 </project>
