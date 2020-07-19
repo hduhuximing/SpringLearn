@@ -78,6 +78,8 @@ import com.atguigu.aop.MathCalculator;
  * 			7）、把BeanPostProcessor注册到BeanFactory中；
  * 				beanFactory.addBeanPostProcessor(postProcessor);
  * =======以上是创建和注册AnnotationAwareAspectJAutoProxyCreator的过程========
+ *
+ *
  * 			AnnotationAwareAspectJAutoProxyCreator => InstantiationAwareBeanPostProcessor
  * 		4）、finishBeanFactoryInitialization(beanFactory);完成BeanFactory初始化工作；创建剩下的单实例bean
  * 			1）、遍历获取容器中所有的Bean，依次创建对象getBean(beanName);

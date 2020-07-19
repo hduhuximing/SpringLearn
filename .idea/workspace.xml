@@ -2,45 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aed6577-062c-4e22-b735-703ca1cc211b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_annotation_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_annotation_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_3_0_alpha_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码/springmvc-annotation/springmvc-annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spring_source_parsing_data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring_source_parsing_data.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/servlet3.0/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/servlet3.0/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/servlet3.0/src/META-INF/services/javax.servlet.ServletContainerInitializer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/spring-annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/代码/spring-annotation/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/代码/spring-annotation/spring-annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/代码/spring-annotation/spring-annotation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/spring-annotation/src/main/java/com/atguigu/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/spring-annotation/src/main/java/com/atguigu/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/spring-annotation/src/main/java/com/atguigu/aop/MathCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/spring-annotation/src/main/java/com/atguigu/aop/MathCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/代码/spring-annotation/src/main/java/com/atguigu/config/MainConfigOfAOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/spring-annotation/src/main/java/com/atguigu/config/MainConfigOfAOP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/代码/spring-annotation/src/main/resources/SpringSource.txt" beforeDir="false" afterPath="$PROJECT_DIR$/代码/spring-annotation/src/main/resources/SpringSource.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/spring-annotation/target/classes/SpringSource.txt" beforeDir="false" afterPath="$PROJECT_DIR$/代码/spring-annotation/target/classes/SpringSource.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/springmvc-annotation/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/springmvc-annotation/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/springmvc-annotation/.settings/.jsdtscope" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/springmvc-annotation/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/springmvc-annotation/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/springmvc-annotation/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/springmvc-annotation/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/springmvc-annotation/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/springmvc-annotation/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/springmvc-annotation/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/springmvc-annotation/.springBeans" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/资料/Spring注解驱动开发思维导图.xmind" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/资料/资料图.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +30,6 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -87,7 +54,6 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -136,18 +102,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -184,81 +138,35 @@
       <workItem from="1583044306701" duration="1470000" />
       <workItem from="1583392608663" duration="667000" />
       <workItem from="1584528971135" duration="304000" />
+      <workItem from="1593880242384" duration="760000" />
+      <workItem from="1595144078297" duration="333000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="102" key="#Project_Structure" timestamp="1579920889200">
-      <screen x="0" y="23" width="1440" height="827" />
-    </state>
-    <state x="320" y="102" key="#Project_Structure/0.23.1440.827@0.23.1440.827" timestamp="1579920889200" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1580730914699">
+    <state x="418" y="175" width="604" height="550" key="find.popup" timestamp="1595144254443">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580730914699" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1580730914697">
+    <state x="418" y="175" width="604" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1595144254443" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1595144267935">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580730914697" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1580730914696">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580730914696" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1580730914698">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580730914698" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1580730914700">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580730914700" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1580730914700">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1580730914700" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1580730914699">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1580730914699" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1580730914700">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1580730914700" />
-    <state x="329" y="63" key="SettingsEditor" timestamp="1580703020251">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="329" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580703020251" />
-    <state x="208" y="51" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1578927966298" />
-    <state x="208" y="31" key="SettingsEditor/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1576905330952" />
-    <state width="354" height="350" key="documentation.popup.size" timestamp="1579688328380">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="354" height="350" key="documentation.popup.size/0.0.1440.900@0.0.1440.900" timestamp="1579688328380" />
-    <state x="375" y="214" width="689" height="472" key="find.popup" timestamp="1579759865081">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="375" y="214" width="689" height="472" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1579759865081" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1580022359931">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1580022359931" />
-    <state x="385" y="203" width="670" height="622" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1579920959900" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1595144267935" />
   </component>
   <component name="ZooKeeperConfig">
     <option name="host" value="" />
